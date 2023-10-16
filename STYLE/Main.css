@@ -1,0 +1,12 @@
+body{
+	margin: 0px;
+
+	overflow: hidden;
+}
+
+.DISPLAY{
+	width: 100vw;
+	height: 100vh;
+
+	background-color: rgb(0, 0, 0);
+}
