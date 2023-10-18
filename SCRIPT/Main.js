@@ -11,6 +11,8 @@ window.addEventListener("load", (e)=>{
 
 	setInterval(() => {
 		DRAW();
+
+		onTick();
 	}, 1);
 });
 
