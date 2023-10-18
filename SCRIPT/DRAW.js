@@ -30,6 +30,7 @@ function DRAW(){
 
 		//全消し
 		CTX.clearRect(0, 0, DISPLAY_EL.width, DISPLAY_EL.height);
+		CTX.beginPath();
 
 		for (let I = 0; I < DRAW_OBJ.length; I++) {
 			const OBJ = DRAW_OBJ[I];
