@@ -15,7 +15,8 @@ window.addEventListener("load", (e)=>{
 			NAME:e.key,
 			CTRL:e.ctrlKey,
 			ALT:e.altKey,
-			SHIFT:e.shiftKey
+			SHIFT:e.shiftKey,
+			REPEAT:e.repeat
 		};
 	});
 	

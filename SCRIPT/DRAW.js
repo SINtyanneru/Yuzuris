@@ -43,6 +43,10 @@ function DRAW(){
 								CTX.fillStyle = ROW.COLOR;
 								CTX.fill();
 								break;
+							case "STROKE":
+								CTX.strokeStyle = ROW.COLOR;
+								CTX.stroke();
+								break;
 						}
 					});
 					break;
